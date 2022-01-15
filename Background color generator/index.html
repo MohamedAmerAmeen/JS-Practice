@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <title>Modal window</title>
+    <style>
+      body{
+        background: linear-gradient(#84f6c1,#fdfba0);
+      }
+      .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .colorSection{
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='main'>
+    <h1>Background color generator</h1>
+    <div class="colorSection">
+    <input class='firstColor' type="color" value="#84f6c1"/>
+    <input class='secondeColor' type="color" value="#fdfba0"/>
+  </div>
+    <h2>current colors hex code are: <span class="xColor">x</span> & <span class="yColor">y</span></h2>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
